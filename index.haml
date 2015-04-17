@@ -1,0 +1,321 @@
+
+!!!html5
+%html
+	%head
+		%title dashboard
+		%meta(name="author" content="ddelphi")
+		%meta(name="viewport" content="width=device-width, initial-scale=1")
+		%meta(charset="utf-8")
+		%meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+		%link(type="text/css" rel="stylesheet" href="css/bootstrap.min.css")
+		%link(type="text/css" rel="stylesheet" href="_css/bootstrap-theme.min.css")
+		%link(type="text/css" rel="stylesheet" href="style.css")		
+		%script(src="js/jquery.min.js")
+		%script(src="js/bootstrap.min.js")
+		/[if lt IE 9]
+			%script(src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js")
+			%script(src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js")
+		
+		
+	%body
+		.body-wrapper
+			.container.header
+				.row.header-inner
+					.col-lg-2
+						.m-brand
+							%span.brand-logo
+							%span.brand-name
+								Dashboard
+					.col-lg-10
+						.m-nav
+							%ul.nav.nav-pills.navbar-right
+								%li.item
+									%a(href="#")
+										alpha
+								%li.item
+									%a(href="#")
+										beta
+								%li.item
+									%a(href="#")
+										cita
+			.container.main
+				.row
+					.col-lg-2
+						.nav-side
+							.m-card-profile
+								.media
+									%a.media-left
+										.img
+									.media-body
+										.name
+											%strong
+												jack some
+										.desc
+											some title
+							.m-menu-statistic
+								.list-group
+									%a.list-group-item.active(href="#")
+										%span.glyphicon.glyphicon-th
+										%span.text
+											item one
+									%a.list-group-item(href="#")
+										%span.glyphicon.glyphicon-th
+										%span.text
+											item two
+									%a.list-group-item(href="#")
+										%span.glyphicon.glyphicon-th
+										%span.text
+											item three
+									%a.list-group-item(href="#")
+										%span.glyphicon.glyphicon-th
+										%span.text
+											item four
+									%a.list-group-item(href="#")
+										%span.glyphicon.glyphicon-th
+										%span.text
+											item five
+							.m-site-info
+								.desc
+									the simple
+									%br dashboard page
+								.img
+
+					.col-lg-10
+						.row
+							.col-lg-12
+								.well.m-board-info.clearfix
+									%span
+										%span.glyphicon.glyphicon-th
+									%span.title
+										Static Dashboard
+									%span.content
+										.m-media-block
+											.img-wrapper
+												.img
+											.content
+												vitae
+										.m-media-block
+											.img-wrapper
+												.img
+											.content
+												luctus
+										.m-media-block
+											.img-wrapper
+												.img
+											.content
+												bibendum
+						.row
+							.col-lg-6
+								.row
+									.col-lg-6
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-sm
+												.title-wrapper
+													.title
+														tempor
+												.content-wrapper
+													.content
+														25890
+									.col-lg-6
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-sm
+												.title-wrapper
+													.title
+														venenatis
+												.content-wrapper
+													.content
+														5632
+								.row
+									.col-lg-6
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-sm
+												.title-wrapper
+													.title
+														congue
+												.content-wrapper
+													.content
+														780
+									.col-lg-6
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-sm
+												.title-wrapper
+													.title
+														cubilia
+												.content-wrapper
+													.content
+														23156
+								.row
+									.col-lg-12
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-md.m-stat-five.clearfix
+												.item
+													.img
+													.content
+														.heading
+															elementum
+														.desc
+															sed pharetra odia
+												.item
+													.img
+													.content
+														.heading
+															euismod
+														.desc
+															placerat nec arcu
+												.item
+													.img
+													.content
+														.heading
+															accumsan
+														.desc
+															facilisis vitae metus
+												.item
+													.img
+													.content
+														.heading
+															posuere
+														.desc
+															malesuada ante pharetra
+							.col-lg-6
+								.row
+									.col-lg-12
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-md.m-stat-six
+												.item
+													.img
+												.item
+													.img
+												.item
+													.img
+												.item
+													.img
+												.item
+													.img
+												.item
+													.img
+												.item
+													.img
+												.item
+													.img
+								.row
+									.col-lg-12
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-md.m-stat-seven
+												.img-wrapper
+													.img
+												.content
+													%ul.list-group.m-list-date
+														%li.list-group-item
+															%span.glyphicon.glyphicon-user
+															%span.title
+																title one
+															%span.date
+																2014-11-01
+														%li.list-group-item
+															%span.glyphicon.glyphicon-user
+															%span.title
+																title one
+															%span.date
+																2014-11-01
+														%li.list-group-item
+															%span.glyphicon.glyphicon-user
+															%span.title
+																title one
+															%span.date
+																2014-11-01
+														%li.list-group-item
+															%span.glyphicon.glyphicon-user
+															%span.title
+																title one
+															%span.date
+																2014-11-01
+														%li.list-group-item
+															%span.glyphicon.glyphicon-user
+															%span.title
+																title one
+															%span.date
+																2014-11-01
+
+								.row
+									.col-lg-12
+										.panel.panel-default
+											.panel-heading
+												%span.glyphicon.glyphicon-align-justify
+												the header
+											.panel-body.m-stat-md.m-stat-eight
+												%ul.list-group
+													%li.list-group-item
+														%span.glyphicon.glyphicon-play-circle
+														%span.title
+															title one
+														%span.desc
+															some descriptions
+														%span.badge
+															30
+													%li.list-group-item
+														%span.glyphicon.glyphicon-play-circle
+														%span.title
+															title one
+														%span.desc
+															some descriptions
+														%span.badge
+															30
+													%li.list-group-item
+														%span.glyphicon.glyphicon-play-circle
+														%span.title
+															title one
+														%span.desc
+															some descriptions
+														%span.badge
+															30
+													%li.list-group-item
+														%span.glyphicon.glyphicon-play-circle
+														%span.title
+															title one
+														%span.desc
+															some descriptions
+														%span.badge
+															30
+													%li.list-group-item
+														%span.glyphicon.glyphicon-play-circle
+														%span.title
+															title one
+														%span.desc
+															some descriptions
+														%span.badge
+															30
+													%li.list-group-item
+														%span.glyphicon.glyphicon-play-circle
+														%span.title
+															title one
+														%span.desc
+															some descriptions
+														%span.badge
+															30
+
+
+
+
+

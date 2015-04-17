@@ -1,0 +1,308 @@
+
+// layout params
+$siteWidth: 100%
+
+
+/**/
+
+body
+	font-size: 14px
+	color: #676767
+	background: #111
+
+/* bootstrap custom */
+
+.panel-default>.panel-heading
+	color: #777
+	background: #e5e5e5
+
+
+/* custom */
+
+// header section
+
+.header
+	.header-inner
+		padding: 15px 10px
+		background: #f6f6f6
+		border-bottom: 2px solid #ddd
+
+.m-brand
+	.brand-logo
+		float: left
+		width: 40px
+		height: 40px
+		background: #888
+	.brand-name
+		margin-left: 10px
+		font-size: 18px
+		font-weight: bold
+		line-height: 40px
+		vertical-align: middle
+
+.m-nav
+	font-weight: bold
+
+	.nav
+		a:hover
+			color: #97947A
+		a
+			color: #7C7548
+
+
+
+// main section
+
+.main
+	overflow: hidden
+	padding: 20px
+	background: #f2f2f2
+
+// main section - sidebar
+
+.nav-side
+	position: relative
+	overflow: hidden
+	margin: -20px -15px -10000px -20px
+	padding: 20px 15px 10000px 15px
+	background: #333
+
+.m-card-profile
+	margin-bottom: 40px
+	padding: 20px 10px
+	border: 1px solid #3e3e3e
+	border-radius: 2px
+	color: #ddd
+	background: #484848
+
+	.img
+		width: 40px
+		height: 40px
+		background: #888
+	.desc
+		color: #bbb
+
+.m-menu-statistic
+	.list-group
+		.list-group-item:hover
+			background-color: #555
+		.list-group-item
+			margin: 0 -15px -1px
+			padding: 8px 15px
+			border-color: #333
+			border-radius: 0
+			background-color: inherit
+			color: #eee
+
+			.text
+				margin-left: 8px
+
+		.list-group-item.active
+			color: #222
+			background: #E58D21
+
+.m-site-info
+	margin-top: 80px
+	margin-bottom: 20px
+	font-size: 12px
+	color: #888
+
+	.desc
+		margin-bottom: 6px
+		line-height: 16px
+	.img
+		width: 120px
+		height: 48px
+		background: #666
+
+// main section - right side
+
+.m-board-info
+	line-height: 26px
+
+	.img
+		width: 15px
+		height: 15px
+		background: #ddd
+	.glyphicon
+		font-size: 26px
+		vertical-align: middle
+	.title
+		margin-left: 10px
+		font-size: 20px
+		vertical-align: middle
+	.content
+		float: right
+		vertical-align: middle
+
+		.m-media-block
+			float: right
+			margin-right: 10px
+			
+			.img-wrapper
+				float: left
+				margin-right: 10px
+
+				.img
+					display: none
+					width: 15px
+					height: 15px
+					background: #ddd
+			.content
+				overflow: hidden
+				
+
+.m-stat-sm
+	overflow: hidden
+	padding: 0
+	min-height: 80px
+	line-height: 68px
+
+	.title-wrapper
+		display: inline-block
+		width: 49%
+		vertical-align: middle
+
+		.title
+			margin: 10px
+
+	.content-wrapper
+		display: inline-block
+		width: 49%
+		font-size: 28px
+		font-weight: bold
+		word-wrap: break-word
+		text-align: center
+		vertical-align: middle
+
+		.content
+			margin: 10px
+
+.m-stat-md
+	overflow: hidden
+	width: 100%
+	padding: 0
+
+.m-stat-five
+	padding: 10px
+
+	.item
+		float: left
+		overflow: hidden
+		width: 25%
+
+		.img
+			margin: 20px auto
+			width: 50px
+			height: 50px
+			background: #888
+		.content
+			.heading
+				padding: 5px
+				font-weight: bold
+				text-align: center
+			.desc
+				padding: 5px
+
+.m-stat-six
+	padding: 10px
+
+	.item
+		float: left
+		padding: 5px
+		width: 16.66666%
+
+		.img
+			height: 55px
+			border-radius: 2px
+			background: #bbb
+
+.m-stat-seven
+	.img-wrapper
+		float: left
+		width: 33%
+		text-align: center
+
+		.img
+			display: inline-block
+			margin-top: 48px
+			width: 80px
+			height: 96px
+			background: #f1f1f1
+	
+	.content
+		overflow: hidden
+
+		.m-list-date
+			margin: -1px -1px -1px 0
+
+			.list-group-item
+				border-radius: 0
+
+				.title
+					margin-left: 10px
+					font-weight: bold
+				.date
+					float: right
+
+.m-stat-eight
+	.list-group
+		margin: 0 -1px
+
+		.list-group-item
+			border-radius: 0
+
+			.title
+				overflow: hidden
+				padding: 0 10px
+				max-width: 100px
+				font-weight: bold
+			.desc
+				overflow: hidden
+				margin-left 10px
+				color: #888
+
+
+/*  helpers  */
+
+
+.cf
+	*zoom: 1
+.cf:after
+	clear: both
+.cf:before, .cf:after
+	display: table
+	content: ""
+	line-height: 0
+.cl-l
+	clear: left
+.cl-r
+	clear: right
+.cl-b
+	clear: both
+.fl-l
+	float: left
+.fl-r
+	float: right
+.pos-r
+	position: relative
+.pos-a
+	position: absolute
+.dir-r
+	direction: rtl
+.text-l
+	text-align: left
+.text-c
+	text-align: center
+.text-r
+	text-align: right
+.mg-h0
+	margin-left: 0
+	margin-right: 0
+.mg-v0
+	margin-top: 0
+	margin-bottom: 0
+.hide
+	display: none!important
+.show
+	display: block!important
